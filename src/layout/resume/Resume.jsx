@@ -5,15 +5,7 @@ import dylanResume from './dylanResume.pdf';
 
 const Resume = () => {
 
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
-
   const resume = dylanResume;
-  
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-    setPageNumber(1);
-  }
 
   return (
     <div className='resume'>
@@ -23,10 +15,9 @@ const Resume = () => {
       </div>
       <Document
         file={resume}
-        onLoadSuccess={onDocumentLoadSuccess}
         className='resumePdf'
         >
-        <Page pageNumber={pageNumber} />
+        <Page pageNumber={1} />
       </Document>
     </div>
   )
