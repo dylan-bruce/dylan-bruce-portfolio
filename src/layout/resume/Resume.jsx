@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import { Link } from 'react-router-dom';
 import dylanResume from './dylanResume.pdf';
