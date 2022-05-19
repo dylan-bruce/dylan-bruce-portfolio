@@ -61,6 +61,16 @@ div.text {
   padding: .5rem;
 }
 
+canvas.react-pdf__Page__canvas {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div.react-pdf__Page {
+  display: flex;
+  justify-content: left;
+}
+
 a.resumeDownload {
   display: flex;
   align-items: center;
