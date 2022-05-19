@@ -15,6 +15,7 @@ h1 {
 nav.header-container, div.footer  {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-left: 5rem;
@@ -26,7 +27,7 @@ nav.header-container, div.footer  {
   background: #627C6D;
 }
 
-/*------------------- Header/Footer -------------------- */
+/*------------------- Main -------------------- */
 
 div.main {
   color: #8A7E5D;
@@ -35,35 +36,49 @@ div.main {
   padding-bottom: 1rem;
 }
 
+div.about-me {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+h3.about-me-title {
+  font-size: 26px;
+  font-style: oblique;
+}
+
 /*------------------- Quick Links -------------------- */
 
 div.quickLink {
+  display: flex;
+  flex-wrap: wrap;
   padding: .5rem;
 }
 
 a.link {
+  padding: 5px;
+  border-radius: .5rem;
   margin: .5rem;
   background-color: #D4E7DC;
   border-color: #D4E7DC;
 }
 
 a.link:link {
-  color:#DDD4BC;
+  color:#8A7E5D;
   text-decoration: none;
 }
 
 a.link:visited {
-  color:#DDD4BC;
-  text-decoration: none;
+  color:rgb(116, 116, 116);
+  font-weight: bold;
 }
 
 a.link:hover {
-  color:#DDD4BC;
+  color:#8A7E5D;
   background: rgb(146, 194, 166);
   font-weight: bold;
 }
 
 a.link:active {
-  color:#DDD4BC;
+  color:#8A7E5D;
   font-style: italic;
 }
