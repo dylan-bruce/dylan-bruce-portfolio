@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <div className='resume'>
       <div className='text'>
-        <h3>Resume</h3>
+        <h3 className='resume-title'>Resume</h3>
         <Link className='resumeDownload' to='./dylanResume.pdf' target='_blank' download>Download</Link>
       </div>
       <Document
