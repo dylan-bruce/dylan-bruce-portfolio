@@ -16,12 +16,12 @@ const Footer = () => {
         <p>Dylan Bruce - Portfolio</p>
       </div>
       <div className='icons'>
-        <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript'><IoLogoJavascript /></a>
-        <a href='https://developer.mozilla.org/en-US/docs/Web/HTML'><DiHtml5 /></a>
-        <a href='https://developer.mozilla.org/en-US/docs/Web/CSS'><DiCss3Full /></a>
-        <a href='https://reactjs.org/'><DiReact /></a>
-        <a href='https://vercel.com/dashboard'><SiVercel/></a>
-        <a href='https://www.heroku.com/'><SiHeroku/></a>
+        <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target="_blank" rel="noopener noreferrer"><IoLogoJavascript /></a>
+        <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="_blank" rel="noopener noreferrer"><DiHtml5 /></a>
+        <a href='https://developer.mozilla.org/en-US/docs/Web/CSS' target="_blank" rel="noopener noreferrer"><DiCss3Full /></a>
+        <a href='https://reactjs.org/' target="_blank" rel="noopener noreferrer"><DiReact /></a>
+        <a href='https://vercel.com/dashboard' target="_blank" rel="noopener noreferrer"><SiVercel/></a>
+        <a href='https://www.heroku.com/' target="_blank" rel="noopener noreferrer"><SiHeroku/></a>
       </div>
       <div className='date'>
         <p>Today's Date: </p><CurrentDate/>
