@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import me from './photo/me.png'
 
 const Home = () => {
   return (
     <div className='about-me'>
+      <img className='me' src={me}></img>
       <h3 className='about-me-title'>About Me</h3>
       <p className='about-me-text'>
         My name is Dylan, and I am a software engineer.  

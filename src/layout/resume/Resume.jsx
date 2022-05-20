@@ -12,12 +12,14 @@ const Resume = () => {
         <h3 className='resume-title'>Resume</h3>
         <Link className='resumeDownload' to='./dylanResume.pdf' target='_blank' download>Download</Link>
       </div>
-      <Document
-        file={resume}
-        className='resumePdf'
-        >
-        <Page pageNumber={1} />
-      </Document>
+      <div className='pdf'>
+        <Document
+          file={resume}
+          className='resumePdf'
+          >
+          <Page pageNumber={1} />
+        </Document>
+      </div>
     </div>
   )
 }

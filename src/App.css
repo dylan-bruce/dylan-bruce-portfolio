@@ -16,15 +16,18 @@ nav.header-container, div.footer  {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 
   color: #DDD4BC;
   background: #627C6D;
+}
+
+div.title {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 /*------------------- Main -------------------- */
@@ -39,13 +42,20 @@ div.main {
 /*------------------- About Me -------------------- */
 
 div.about-me {
-  padding-left: 5rem;
-  padding-right: 5rem;
+  text-align: center;
+  margin: auto;
+  width: 75%;
 }
 
 h3.about-me-title {
   font-size: 26px;
   font-style: oblique;
+}
+
+img.me {
+  width: 65%;
+  padding: 1rem;
+  border-radius: 5rem;
 }
 
 /*------------------- Resume -------------------- */
@@ -67,14 +77,16 @@ div.text {
   margin-bottom: .5rem;
 }
 
-canvas.react-pdf__Page__canvas {
-  display: flex;
-  justify-content: space-evenly;
+div.react-pd__Page {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-div.react-pdf__Page {
-  display: flex;
-  justify-content: left;
+div.pdf {
+  padding: 1rem;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a.resumeDownload {
@@ -108,6 +120,67 @@ a.resumeDownload:hover {
 }
 
 a.resumeDownload:active {
+  color:#DDD4BC;
+  font-style: italic;
+}
+
+/*------------------- Projects -------------------- */
+
+div.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+div.project-card.card {
+  width: 30rem;
+  padding: .5rem;
+  margin: .5rem;
+  border: 1rem;
+}
+
+div.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img.card-img-top {
+  width: 30rem;
+}
+
+div.repo-buttons {
+  padding: .5rem;
+}
+
+a.card-link {
+  padding: 5px;
+  border-radius: .5rem;
+  margin: .5rem;
+  background-color: #627C6D;
+  border-color: #627C6D;
+  color: #DDD4BC;
+}
+
+a.card-link:link {
+  color:#DDD4BC;
+  text-decoration: none;
+}
+
+a.card-link:visited {
+  color:#DDD4BC;
+  font-weight: bold;
+}
+
+a.card-link:hover {
+  color:#DDD4BC;
+  background: rgb(146, 194, 166);
+  font-weight: bold;
+}
+
+a.card-link:active {
   color:#DDD4BC;
   font-style: italic;
 }
