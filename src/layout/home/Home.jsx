@@ -19,6 +19,7 @@ const Home = () => {
         I finished out my degree and I have since enrolled in a full-stack software engineering boot camp that I am currently a week away from completing.  
         In this boot camp, I have learned the common practices of front-end and back-end programming, and I can make full-stack CRUD programs.
       </p>
+      <hr/>
     </div>
   )
 }

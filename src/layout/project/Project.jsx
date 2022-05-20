@@ -75,6 +75,7 @@ const Project = () => {
           </Card.Body>
         </Card>
       </div>
+      <hr/>
     </div>
   )
 }

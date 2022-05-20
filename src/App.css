@@ -42,6 +42,15 @@ div.date {
   gap: .5rem;
 }
 
+div.footer > div.icons > a {
+  color:#DDD4BC;
+}
+
+div.footer > div.icons > a:hover {
+  color:#8A7E5D;
+  font-size: 24px;
+}
+
 div.footer {
   justify-content: space-between;
   padding-left: 2rem;
@@ -202,7 +211,7 @@ h3.projects-title {
 }
 
 div.project-card.card {
-  width: 30rem;
+  width: 35%;
   padding: .5rem;
   margin: .5rem;
   border: 1rem;
@@ -215,11 +224,12 @@ div.card-body {
 }
 
 img.card-img-top {
-  width: 30rem;
+  width: 100%;
 }
 
 div.repo-buttons {
-  padding: .5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 a.card-link {
@@ -274,8 +284,6 @@ a:visited {
 }
 
 a:hover {
-  color: #DDD4BC;
-  background: #627C6D;
   font-weight: bold;
   border-radius: .25rem;
 }

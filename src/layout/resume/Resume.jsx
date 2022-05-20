@@ -22,6 +22,7 @@ const Resume = () => {
           <Page pageNumber={1} />
         </Document>
       </div>
+      <hr/>
     </div>
   )
 }

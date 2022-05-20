@@ -22,6 +22,7 @@ const Contact = () => {
           <ImPointRight/> <a href="https://www.github.com/dylan-bruce" target="_blank" rel="noopener noreferrer">GitHub <AiOutlineGithub/></a>
         </p>
       </div>
+      <hr/>
     </div>
   )
 }
