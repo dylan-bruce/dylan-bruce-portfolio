@@ -39,6 +39,14 @@ div.main {
   padding-bottom: 1rem;
 }
 
+hr {
+  border: 1px dashed #627C6D;
+  width: 70%;
+  height: 5px;  /* <-----------------  Edit for my revision to include height.  Makes hr look like a rectangle instead of a line.*/
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 /*------------------- About Me -------------------- */
 
 div.about-me {
@@ -72,9 +80,9 @@ div.resume {
 
 div.text {
   display:flex;
+  justify-content: center;
   gap: 1rem;
   padding: .5rem;
-  margin-bottom: .5rem;
 }
 
 div.react-pd__Page {
@@ -132,6 +140,12 @@ div.projects {
   justify-content: space-evenly;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+h3.projects-title {
+  text-align: center;
+  font-size: 26px;
+  font-style: oblique;
 }
 
 div.project-card.card {

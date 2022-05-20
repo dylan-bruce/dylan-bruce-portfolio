@@ -5,7 +5,9 @@ const Home = () => {
   return (
     <div className='about-me'>
       <img className='me' src={me}></img>
+      <hr/>
       <h3 className='about-me-title'>About Me</h3>
+      <hr/>
       <p className='about-me-text'>
         My name is Dylan, and I am a software engineer.  
         I started out working as an industrial technician where I had to complete tasks in a timely manner to guarantee there was no work stoppage 
