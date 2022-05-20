@@ -12,7 +12,7 @@ import githubImg from './repoImages/githubRepos.PNG';
 const Project = () => {
 
   return (
-    <>
+    <div className='project'>
       <hr/>
       <h3 className='projects-title'>Projects</h3>
       <hr/>
@@ -75,7 +75,7 @@ const Project = () => {
           </Card.Body>
         </Card>
       </div>
-    </>
+    </div>
   )
 }
 

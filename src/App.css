@@ -1,4 +1,4 @@
-/*------------------- App -------------------- */
+/*---------------------------------------- App ---------------------------------------- */
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,7 +10,13 @@ h1 {
   margin-bottom: 15px;
 }
 
-/*------------------- Header/Footer -------------------- */
+h3.contact-title {
+  text-align: center;
+  font-size: 26px;
+  font-style: oblique;
+}
+
+/*---------------------------------------- Header/Footer ---------------------------------------- */
 
 nav.header-container, div.footer  {
   display: flex;
@@ -30,7 +36,54 @@ div.title {
   padding-right: 1.5rem;
 }
 
-/*------------------- Main -------------------- */
+div.date {
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+}
+
+div.footer {
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+div.quickLink {
+  display: flex;
+  flex-wrap: wrap;
+  padding: .5rem;
+}
+
+a.link {
+  padding: 5px;
+  border-radius: .5rem;
+  margin: .5rem;
+  background-color: #D4E7DC;
+  border-color: #D4E7DC;
+}
+
+a.link:link {
+  color:#8A7E5D;
+  text-decoration: none;
+}
+
+a.link:visited {
+  color:rgb(116, 116, 116);
+  font-weight: bold;
+}
+
+a.link:hover {
+  color:#8A7E5D;
+  background: rgb(146, 194, 166);
+  font-weight: bold;
+}
+
+a.link:active {
+  color:#8A7E5D;
+  font-style: italic;
+}
+
+/*---------------------------------------- Main ---------------------------------------- */
 
 div.main {
   color: #8A7E5D;
@@ -42,12 +95,12 @@ div.main {
 hr {
   border: 1px dashed #627C6D;
   width: 70%;
-  height: 5px;  /* <-----------------  Edit for my revision to include height.  Makes hr look like a rectangle instead of a line.*/
+  height: 5px;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-/*------------------- About Me -------------------- */
+/*---------------------------------------- About Me ---------------------------------------- */
 
 div.about-me {
   text-align: center;
@@ -66,7 +119,7 @@ img.me {
   border-radius: 5rem;
 }
 
-/*------------------- Resume -------------------- */
+/*---------------------------------------- Resume ---------------------------------------- */
 
 h3.resume-title {
   font-size: 26px;
@@ -132,7 +185,7 @@ a.resumeDownload:active {
   font-style: italic;
 }
 
-/*------------------- Projects -------------------- */
+/*---------------------------------------- Projects ---------------------------------------- */
 
 div.projects {
   display: flex;
@@ -199,39 +252,35 @@ a.card-link:active {
   font-style: italic;
 }
 
-/*------------------- Quick Links -------------------- */
+/*---------------------------------------- Contact ---------------------------------------- */
 
-div.quickLink {
-  display: flex;
-  flex-wrap: wrap;
-  padding: .5rem;
+div.contact-methods {
+  text-align: center;
+  margin: auto;
 }
 
-a.link {
-  padding: 5px;
-  border-radius: .5rem;
-  margin: .5rem;
-  background-color: #D4E7DC;
-  border-color: #D4E7DC;
+a {
+  color: #8A7E5D;
 }
 
-a.link:link {
+a:link {
   color:#8A7E5D;
   text-decoration: none;
 }
 
-a.link:visited {
-  color:rgb(116, 116, 116);
-  font-weight: bold;
-}
-
-a.link:hover {
+a:visited {
   color:#8A7E5D;
-  background: rgb(146, 194, 166);
   font-weight: bold;
 }
 
-a.link:active {
+a:hover {
+  color: #DDD4BC;
+  background: #627C6D;
+  font-weight: bold;
+  border-radius: .25rem;
+}
+
+a:active {
   color:#8A7E5D;
   font-style: italic;
 }
