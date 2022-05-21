@@ -13,7 +13,7 @@ const Resume = () => {
         <h3 className='resume-title'>Resume</h3>
         <Link className='resumeDownload' to='./dylanResume.pdf' target='_blank' download>Download</Link>
       </div>
-      <hr/>
+      <hr className='pdf-hr'/>
       <div className='pdf'>
         <Document
           file={resume}

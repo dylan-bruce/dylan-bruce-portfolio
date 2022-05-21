@@ -55,6 +55,7 @@ div.footer {
   justify-content: space-between;
   padding-left: 2rem;
   padding-right: 2rem;
+  gap: 1rem;
 }
 
 div.quickLink {
@@ -153,10 +154,10 @@ div.react-pd__Page {
 }
 
 div.pdf {
-  padding: 1rem;
   margin: auto;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
 a.resumeDownload {
@@ -291,4 +292,12 @@ a:hover {
 a:active {
   color:#8A7E5D;
   font-style: italic;
+}
+
+/*---------------------------------------- Media Query ---------------------------------------- */
+
+@media only screen and (max-width: 650px) {
+  div.pdf, hr.pdf-hr {
+      display: none;
+  }
 }
