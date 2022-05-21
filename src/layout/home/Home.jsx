@@ -10,14 +10,17 @@ const Home = () => {
       <hr/>
       <p className='about-me-text'>
         My name is Dylan, and I am a software engineer.  
-        I started out working as an industrial technician where I had to complete tasks in a timely manner to guarantee there was no work stoppage 
-        and followed the plant’s schedules.  I knew that I wanted more out of my career, so I started to look at what my interests were.  
+        I started out working as an industrial technician while going to college where I graduated with an Associates Degree in Industrial Electrical Technology. 
+        After finishing my degree, I knew that I wanted more out of my career, so I started to look at what my interests were.  
         I have always loved working with computers, and I have always been interested in the way that things work.
       </p> 
       <p className='about-me-text'>
         When attending college, I took an intro to C++ course where I found my passion for programming.  
-        I finished out my degree and I have since enrolled in a full-stack software engineering boot camp that I am currently a week away from completing.  
-        In this boot camp, I have learned the common practices of front-end and back-end programming, and I can make full-stack CRUD programs.
+        I finished out my degree and I started to self teach C# because I was stuck on the idea of creating my own video game using Unity.  After following some tutorials and
+        one of Unity's guided lessons on making a small functional game, I decided that I wanted to pursue this idea more directly.
+        This is when I enrolled in Thinkful's full-stack software engineering boot camp that I have finished on 5/9/2022.  
+        In this boot camp, I learned about web requests, front-end development, back-end development, and data structures and algorithms. 
+        Utilizing these skills that I had learned, I created front-end, back-end, and full-stack CRUD projects during the boot camp.  
       </p>
       <hr/>
     </div>
