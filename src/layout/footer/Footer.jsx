@@ -24,7 +24,7 @@ const Footer = () => {
         <a href='https://www.heroku.com/' target="_blank" rel="noopener noreferrer"><SiHeroku/></a>
       </div>
       <div className='date'>
-        <p>Today's Date: </p><CurrentDate/>
+        <CurrentDate/>
       </div>
     </>
   )
