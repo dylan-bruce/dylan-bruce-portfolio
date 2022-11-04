@@ -61,6 +61,7 @@ div.footer {
 
 div.quickLink {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: .5rem;
 }
